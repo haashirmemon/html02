@@ -105,11 +105,8 @@ p {
 
 .sectionbottom {
     display: flex;
-    justify-content: space-around;
-    padding: 25px;
-    /* background-color: #c1da00; */
-    color: black;
-    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .contact {
@@ -123,7 +120,7 @@ p {
 .about {
     /* border: 1px solid black; */
     background-color: rgba(126, 48, 48, 0.936);
-    padding: 25px;
+     padding: 25px;
     margin: 20px;
 
 }
